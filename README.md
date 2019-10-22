@@ -1,9 +1,14 @@
 Please [click here](./README_EN.md) for English version of Readme 
 ----
 
+本项目以微信小程序为载体，实现nlp标注任务的分发与收集，可以实现远程办公，随时标注的功能。  
+点击[使用视频](./images/demo.mov)查看demo。
+
 ## 前端
 
 前端的文件夹结构是微信小程序文件存储的默认结构。主要的内容是位于TextAnnotator/pages中的五个页面：
+
+![页面显示](./images/zh_pages.png)
 
 * 初始的index，可以选择登录或者注册的页面
 * 登录的login：登录已有账号的页面
