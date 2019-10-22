@@ -1,0 +1,41 @@
+/* pages/tasks/tasks.wxss */
+.topbar{
+  position: relative;
+  font-weight: bold;
+  margin-top: 20rpx;
+  padding-top: 60rpx;
+  padding-left: 300rpx;
+  height: 80rpx;
+  border-bottom: 1px solid rgb(51,154,213);
+}
+
+.tasks_wrapper{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 220rpx;
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.name_and_type{
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+.name{
+  font-weight: bold;
+  font-size: 25rpx;
+  line-height: 30rpx;
+}
+.type{
+  /*padding-top : 20rpx;*/
+  font-size: 25rpx;
+  line-height: 28rpx;
+}
+.single_task{
+  display: flex; 
+}
+
+.intro{
+  padding-left: 100rpx;
+  padding-top: 20rpx;
+}

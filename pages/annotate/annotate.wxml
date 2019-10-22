@@ -1,0 +1,37 @@
+<!--pages/annotate/annotate.wxml-->
+<view class="topbar" bindtap='onTapReturn'>
+  <image src="/images/arrow.png" class="return-icon"></image>
+  <view class="topbar_text">任务列表</view>
+</view>
+
+
+<!-- 每次只渲染一个细任务，提交完成之后再下一个 -->
+<view class="annotate_wrapper" >
+  <view class="material">{{current_page+1}}/{{total_page}}</view>
+  <view class="material">{{material}}</view>
+</view>
+
+<form bindsubmit="formSubmit">
+<input name="trans" placeholder="点击输入翻译内容" value='{{INIT}}' auto-focus/>
+  <view class="btn-area">
+    <button type="primary" formType="submit">提交此条翻译</button>
+  </view>
+</form>
+
+<!-- 需要渲染一个列表 -->
+<!-- <scroll-view scroll-y>
+  <view class="tasks_wrapper" wx:for="{{text_list}}" data-idx= "{{index}}" bindtap='onTapNews'>
+    <view class="single_task">
+      <view class="name">{{item.source}}</view>
+      <input name="input{{index}}" placeholder="点击输入翻译内容" auto-focus/>
+    </view>
+  </view>
+</scroll-view> -->
+
+<toast hidden="{{toastHidden}}">
+    恭喜您完成此项标注！
+</toast>
+
+<modal hidden="{{modalHidden}}" no-cancel title="请重新标注！" bindconfirm="resetModal">
+  <view> {{errinfo}} </view>
+</modal>

@@ -1,0 +1,19 @@
+<!--pages/tasks/tasks.wxml-->
+<view class="topbar" bindtap='Refresh'>
+  <view class="topbar_text">当前任务</view>
+</view>
+
+<!-- 需要渲染一个列表 -->
+<scroll-view scroll-y>
+  <view class="tasks_wrapper" wx:for="{{news_list}}" data-idx= "{{index}}" bindtap='onTapNews'>
+  <!--名字和类型竖排放置，intro与之并列放在右边-->
+    <view class="single_task">
+      <view class="name_and_type">
+        <view class="name">{{item.taskname}}</view>
+        <view class="type">{{item.type=="POS"?"词性标注":(item.type=="NER"?"实体标注":"翻译标注")}}</view>
+      </view>
+    <view class="intro">{{item.intro}}</view>
+    </view>
+  </view>
+</scroll-view>
+

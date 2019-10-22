@@ -1,0 +1,18 @@
+<view class="container">
+<!--已经加了css再调整-->
+<text class="topbar_text">文本标注工具</text>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="Option">
+    <button class="login_signup" type="primary" catchtap="Login">登陆</button>    
+    <button class="login_signup" type="primary" catchtap="SignUp">注册</button>
+  </view>
+</view>
+
+
+

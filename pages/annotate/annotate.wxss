@@ -1,0 +1,65 @@
+/* pages/annotate/annotate.wxss */
+/* pages/detail/detail.wxss */
+.topbar{
+  position: relative;
+  margin-top: 20rpx;
+  padding-top: 60rpx;
+  padding-left: 25rpx;
+  height: 80rpx;
+  display: flex;
+  border-bottom: 1px solid rgb(51,154,213);
+}
+.return-icon{
+  /* position: absolute; */
+  padding-top: 5rpx;
+  width: 26rpx;
+  height: 48rpx;
+}
+.topbar_text{
+  font-size: 40rpx;
+  line-height: 56rpx;
+  margin-left: 20rpx;
+}
+.title{
+  font-size: 45rpx;
+  line-height: 63rpx;
+  padding-top: 40rpx;
+  padding-left: 30rpx;
+  padding-right: 20rpx;
+  text-align: left;
+}
+.source_date_readcount{
+  position: relative;
+  display: flex;
+  font-size: 25rpx;
+  line-height: 35rpx;
+  color: grey;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+.source{
+  margin-left: 30rpx;
+  /* margin-right: 30rpx; */
+}
+.readCount{
+  position: absolute;
+  right: 50rpx;
+  text-align: right;
+}
+.p{
+  text-indent: 40rpx;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.material{
+  text-align: center;
+}
+.btn-area{
+  padding-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}

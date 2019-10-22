@@ -1,0 +1,10 @@
+/* pages/signup/signup.wxss */
+.Title{
+  color: blue;
+  font-size: 70rpx;
+  font-weight: bold;
+}
+
+.btn-area{
+  margin-top: 20px;
+}

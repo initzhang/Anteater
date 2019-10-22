@@ -1,0 +1,66 @@
+{
+	"description": "Project configuration file",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.4",
+	"appid": "wx45dc95bdec203e5d",
+	"projectname": "TextAnnotator",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "调试tasks",
+					"pathName": "pages/tasks/tasks",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "调试annotate",
+					"pathName": "pages/annotate/annotate",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "从登录页开始",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

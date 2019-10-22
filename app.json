@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/signup/signup",
+    "pages/tasks/tasks",
+    "pages/annotate/annotate"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "文本标注工具",
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
+  }
+}
