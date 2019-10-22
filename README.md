@@ -1,3 +1,6 @@
+Please [click here](./README_EN.md) for English version of Readme 
+----
+
 ## 前端
 
 前端的文件夹结构是微信小程序文件存储的默认结构。主要的内容是位于TextAnnotator/pages中的五个页面：
