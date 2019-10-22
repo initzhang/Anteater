@@ -1,6 +1,6 @@
 ## 前端
 
-前端的文件夹是TextAnnotator。其结构是微信小程序文件存储的默认结构。主要的内容是位于TextAnnotator/pages中的五个页面：
+前端的文件夹结构是微信小程序文件存储的默认结构。主要的内容是位于TextAnnotator/pages中的五个页面：
 
 * 初始的index，可以选择登录或者注册的页面
 * 登录的login：登录已有账号的页面
@@ -16,7 +16,7 @@
 
 ## 后端
 
-后端的文件夹是NLPLabeler。其主要内容有：
+后端的部分在[另一个网页上](https://github.com/dxwyc/Anteater)。其主要内容有：
 
 * 用户登录系统 login.py
 
